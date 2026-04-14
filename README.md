@@ -111,9 +111,11 @@ Porque si `α` puede desaparecer, entonces el parser no “vería” ningún ter
 ---
 
 ### Ejecucion del codigo:
+### Ejecución del código
 
-## => Conjuntos del primer ejercicio:
- Conjunto de Primeros 
+```text
+=> Conjuntos del primer ejercicio:
+ Conjunto de Primeros.
 Primeros(A) = {'cinco', 'tres', 'cuatro', 'vacio', 'seis'}
 Primeros(B) = {'cuatro', 'vacio', 'seis'}
 Primeros(C) = {'cinco', 'vacio'}
@@ -138,7 +140,7 @@ Pred(C -> vacio          ) = {'$', 'uno', 'tres', 'seis', 'dos'}
 Pred(D -> seis           ) = {'seis'}
 Pred(D -> vacio          ) = {'$', 'cuatro', 'uno', 'tres', 'seis', 'dos'}
 
-## => Conjuntos del segundo ejercicio:
+=> Conjuntos del segundo ejercicio:
  Conjunto de Primeros 
 Primeros(A) = {'vacio', 'dos'}
 Primeros(B) = {'cinco', 'cuatro', 'vacio', 'tres'}
@@ -162,3 +164,4 @@ Pred(C -> cuatro A B     ) = {'cuatro'}
 Pred(C -> cinco          ) = {'cinco'}
 Pred(D -> seis           ) = {'seis'}
 Pred(D -> vacio          ) = {'cinco', 'cuatro', 'uno', 'tres', 'seis'}
+```
